@@ -18,7 +18,7 @@ const Intro = () => {
       </div>
       <div className={styles.card}>
         <Image
-          src="/img/Avocode1.png"
+          src="/img/avocode.png"
           width="100%"
           height="100%"
           layout="fill"
