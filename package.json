@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "pm2 start app", 
-    // "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
