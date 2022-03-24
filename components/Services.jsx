@@ -18,6 +18,7 @@ const Services = ({ services }) => {
                     <video 
                       src={`/img/${service.video}`} 
                       autoPlay 
+                      muted
                       loop 
                       className={styles.video}
                     />
