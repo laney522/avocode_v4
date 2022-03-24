@@ -6,7 +6,7 @@ const Intro = () => {
   return (
     <div className={styles.container}>
       <Circle backgroundColor="#b0ff49" top="-50vh" left="-50vh" />
-      <Circle backgroundColor="#b0ff49" top="-80vh" right="-70vh" />
+      <Circle backgroundColor="#8AE68E" top="-70vh" right="-60vh" />
       <div className={styles.card}>
         <h1 className={styles.title}>
           <span className={styles.brand}>AVOCODE</span> DIGITAL PRODUCT AGENCY
@@ -19,9 +19,9 @@ const Intro = () => {
       <div className={styles.card}>
         <Image
           src="/img/Avocode.png"
-          width="100%"
-          height="100%"
-          layout="fill"
+          width="90%"
+          height="60%"
+          layout="responsive"
           // objectFit="cover" 
           alt=""
         />
