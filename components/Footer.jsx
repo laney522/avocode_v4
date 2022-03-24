@@ -8,7 +8,7 @@ const Footer = () => {
         <div className={styles.carL}>
           <h1 className={styles.title}>AVOCODE CREATIVES.</h1>
           <h1 className={styles.linkTitle}>
-            <a href="/contact" className={styles.link} passHref>
+            <Link href="/contact" className={styles.link} passHref>
               <span className={styles.linkText}>WORK WITH US</span>
               <Image 
                 src="/img/link.png" 
@@ -16,7 +16,7 @@ const Footer = () => {
                 height="40px" 
                 alt=""
               />
-            </a>
+            </Link>
           </h1>
         </div>
         <div className={styles.carS}>
