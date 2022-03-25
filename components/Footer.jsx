@@ -9,6 +9,7 @@ const Footer = () => {
           <h1 className={styles.title}>AVOCODE CREATIVES.</h1>
           <h1 className={styles.linkTitle}>
             <Link href="/contact" className={styles.link} passHref>
+              <>
               <span className={styles.linkText}>WORK WITH US</span>
               <Image 
                 src="/img/link.png" 
@@ -16,6 +17,7 @@ const Footer = () => {
                 height="40px" 
                 alt=""
               />
+              </>
             </Link>
           </h1>
         </div>
